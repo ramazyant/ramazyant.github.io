@@ -179,6 +179,13 @@ footer {
 }
 
 .project-info {
+    width: 100%;
+    max-width: 1200px; /* Limit the container's width */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Add padding */
+    box-sizing: border-box; /* Include padding in width/height calculations */
+    overflow: hidden; /* Prevent child elements from escaping */
+    
     word-wrap: break-word; /* Ensure text wraps properly */
     overflow-wrap: break-word; /* Handle long words */
     white-space: normal; /* Prevent text from staying in a single line */
