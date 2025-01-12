@@ -73,7 +73,7 @@
                 </div>
                 <div class="col-md-8">
                     <p>
-                        Young researcher trained in computer science. My key focus is on generative modelling and uncertainty estimation with application to natural science and engineering problems. <br />
+                        Young researcher trained in computer science. My key focus is on generative modelling and uncertainty estimation with application to natural science and engineering problems. <br /><br />
                         I have received my BScs from both University of London and HSE University, and my MSc from Skoltech and HSE University. Currently I pursue my PhD at HSE University under the supervision of Prof. Denis Derkach.
                     </p>
                 </div>
@@ -189,7 +189,7 @@
 
 
     <div id="skills">
-        <h2 class="heading">Languages and IT skills</h2>
+        <h2 class="heading">Programming skills & Languages</h2>
         <ul>
             <li>Python</li>
             <li>R</li>
@@ -209,21 +209,38 @@
 
     <!-- End #education -->
 
-    <div id="research" class="background-alt" style="align-items: center; justify-content: center;">
+    <div id="projects" class="background-alt">
         <h2 class="heading">Research</h2>
         <div class="container">
             <div class="row">
-                <div class="project shadow-large"
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/back.png" />
+                    </div>
+                    <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Global Optimisation of Black-Box Functions with Generative Models in the Wasserstein Space</h3>
-                        <h4>Ramazyan T., Hushchyn M. and Derkach D.</h4>
-                        <h5>ECAI 2024, Main Track</h5>
-                        <!-- <p>
-                            We propose a new uncertainty estimator for gradient-free optimisation of black-box simulators using deep generative surrogate models. Optimisation of these simulators is especially challenging for stochastic simulators and higher dimensions. To address these issues, we utilise a deep generative surrogate approach to model the black box response for the entire parameter space. We then leverage this knowledge to estimate the proposed uncertainty based on the Wasserstein distance - the Wasserstein uncertainty. This approach is employed in a posterior agnostic gradient-free optimisation algorithm that minimises regret over the entire parameter space. A series of tests were conducted to demonstrate that our method is more robust to the shape of both the black box function and the stochastic response of the black box than state-of-the-art methods, such as efficient global optimisation with a deep Gaussian process surrogate.
-                        </p> -->
-                        <a href="https://arxiv.org/abs/2407.11917">ArXiv</a>
-                        <br />
-                        <a href="https://ebooks.iospress.nl/doi/10.3233/FAIA240765">ECAI 2024 Proceedings</a>
+                        <h3><b>WAsserstein Global Gradient-free OptimisatioN: Python package of global gradient-free optimisation methods</b></h3>
+                        <p>
+                            <b>Ramazyan T.</b>
+                        </p>
+                        <a href="https://github.com/hse-cs/waggon"><b>GitHub</b></a> <br/>
+                        <a href="https://hse-cs.github.io/waggon/"><b>Documentation</b></a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/back.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3><b>Global Optimisation of Black-Box Functions with Generative Models in the Wasserstein Space</b></h3>
+                        <p>
+                            <b>Ramazyan T.</b>, Hushchyn M. and Derkach D.
+                        </p>
+                        <a href="https://arxiv.org/abs/2407.11917"><b>ArXiv</b></a> <br/>
+                        <a href="https://ebooks.iospress.nl/doi/10.3233/FAIA240765"><b>ECAI 2024 Proceedings</b></a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -231,17 +248,16 @@
 
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/mfc.png" />
+                        <img src="images/back.png" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Generating muonic force carriers events with classical and quantum neural networks</h3>
-                        <h4>Ramazyan T., Kiss, O., Grossi, M., Kajomovitz, E. and Vallecorsa, S.</h4>
-                        <h5>Journal of Physics: Conference Series, 2438(1), p.012089</h5>
-                        <!-- <p>
-                            Generative models (GM) are promising applications for near-term quantum computers due to the probabilistic nature of quantum mechanics. This work compares a classical conditional generative adversarial network (CGAN) with a quantum circuit Born machine while addressing their strengths and limitations to generate muonic force carriers (MFCs) events. The former uses a neural network as a discriminator to train the generator, while the latter takes advantage of the stochastic nature of measurements in quantum mechanics to generate samples. We consider a muon fixed-target collision between muons produced at the high-energy collisions of the LHC and the detector material of the ForwArd Search ExpeRiment (FASER) or the ATLAS calorimeter. In the ATLAS case, independent muon measurements performed by the inner detector (ID) and muon system (MS) can help observe new force carriers coupled to muons, which are usually not detected. We numerically observed that CGANs could reproduce the complete data set and interpolate to different regimes. Moreover, we show on a simplified problem that Born machines are promising generative models for near-term quantum devices.
-                        </p> -->
-                        <a href="https://iopscience.iop.org/article/10.1088/1742-6596/2438/1/012089">ACAT 2021 Proceedings</a>
+                        <h3><b>Probaforms: Python package of conditional generative models with sklearn-like interface</b></h3>
+                        <p>
+                            Hushchyn M., <b>Ramazyan T.</b>
+                        </p>
+                        <a href="https://github.com/hse-cs/probaforms"><b>GitHub</b></a> <br/>
+                        <a href="https://hse-cs.github.io/probaforms/"><b>Documentation</b></a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -249,53 +265,15 @@
 
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/mfc.png" />
+                        <img src="images/back.png" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Generating muonic force carriers events with classical and quantum neural networks</h3>
-                        <h4>Ramazyan T., Kiss, O., Grossi, M., Kajomovitz, E. and Vallecorsa, S.</h4>
-                        <h5>Journal of Physics: Conference Series, 2438(1), p.012089</h5>
-                        <!-- <p>
-                            Generative models (GM) are promising applications for near-term quantum computers due to the probabilistic nature of quantum mechanics. This work compares a classical conditional generative adversarial network (CGAN) with a quantum circuit Born machine while addressing their strengths and limitations to generate muonic force carriers (MFCs) events. The former uses a neural network as a discriminator to train the generator, while the latter takes advantage of the stochastic nature of measurements in quantum mechanics to generate samples. We consider a muon fixed-target collision between muons produced at the high-energy collisions of the LHC and the detector material of the ForwArd Search ExpeRiment (FASER) or the ATLAS calorimeter. In the ATLAS case, independent muon measurements performed by the inner detector (ID) and muon system (MS) can help observe new force carriers coupled to muons, which are usually not detected. We numerically observed that CGANs could reproduce the complete data set and interpolate to different regimes. Moreover, we show on a simplified problem that Born machines are promising generative models for near-term quantum devices.
-                        </p> -->
-                        <a href="https://iopscience.iop.org/article/10.1088/1742-6596/2438/1/012089">ACAT 2021 Proceedings</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/mfc.png" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Generating muonic force carriers events with classical and quantum neural networks</h3>
-                        <h4>Ramazyan T., Kiss, O., Grossi, M., Kajomovitz, E. and Vallecorsa, S.</h4>
-                        <h5>Journal of Physics: Conference Series, 2438(1), p.012089</h5>
-                        <!-- <p>
-                            Generative models (GM) are promising applications for near-term quantum computers due to the probabilistic nature of quantum mechanics. This work compares a classical conditional generative adversarial network (CGAN) with a quantum circuit Born machine while addressing their strengths and limitations to generate muonic force carriers (MFCs) events. The former uses a neural network as a discriminator to train the generator, while the latter takes advantage of the stochastic nature of measurements in quantum mechanics to generate samples. We consider a muon fixed-target collision between muons produced at the high-energy collisions of the LHC and the detector material of the ForwArd Search ExpeRiment (FASER) or the ATLAS calorimeter. In the ATLAS case, independent muon measurements performed by the inner detector (ID) and muon system (MS) can help observe new force carriers coupled to muons, which are usually not detected. We numerically observed that CGANs could reproduce the complete data set and interpolate to different regimes. Moreover, we show on a simplified problem that Born machines are promising generative models for near-term quantum devices.
-                        </p> -->
-                        <a href="https://iopscience.iop.org/article/10.1088/1742-6596/2438/1/012089">ACAT 2021 Proceedings</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/mfc.png" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Generating muonic force carriers events with classical and quantum neural networks</h3>
-                        <h4>Ramazyan T., Kiss, O., Grossi, M., Kajomovitz, E. and Vallecorsa, S.</h4>
-                        <h5>Journal of Physics: Conference Series, 2438(1), p.012089</h5>
-                        <!-- <p>
-                            Generative models (GM) are promising applications for near-term quantum computers due to the probabilistic nature of quantum mechanics. This work compares a classical conditional generative adversarial network (CGAN) with a quantum circuit Born machine while addressing their strengths and limitations to generate muonic force carriers (MFCs) events. The former uses a neural network as a discriminator to train the generator, while the latter takes advantage of the stochastic nature of measurements in quantum mechanics to generate samples. We consider a muon fixed-target collision between muons produced at the high-energy collisions of the LHC and the detector material of the ForwArd Search ExpeRiment (FASER) or the ATLAS calorimeter. In the ATLAS case, independent muon measurements performed by the inner detector (ID) and muon system (MS) can help observe new force carriers coupled to muons, which are usually not detected. We numerically observed that CGANs could reproduce the complete data set and interpolate to different regimes. Moreover, we show on a simplified problem that Born machines are promising generative models for near-term quantum devices.
-                        </p> -->
-                        <a href="https://iopscience.iop.org/article/10.1088/1742-6596/2438/1/012089">ACAT 2021 Proceedings</a>
+                        <h3><b>Generating muonic force carriers events with classical and quantum neural networks</b></h3>
+                        <p>
+                            <b>Ramazyan T.</b>, Kiss, O., Grossi, M., Kajomovitz, E. and Vallecorsa, S.
+                        </p>
+                        <a href="https://iopscience.iop.org/article/10.1088/1742-6596/2438/1/012089"><b>ACAT 2021 Proceedings</b></a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -303,7 +281,6 @@
             </div>
         </div>
     </div>
-    <!-- End #projects -->
 
     
 
@@ -343,7 +320,7 @@
                 <div class="col-sm-5 social">
                     <ul>
                         <li>
-                            <a href="https://github.com/" target="ramazyant"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            <a href="https://github.com/ramazyant" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
                         </li>
                         <li>
                             <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
